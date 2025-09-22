@@ -47,7 +47,7 @@ const config: z.input<typeof Schema_Config> = {
      * Then, copy the folder id and paste it here
      */
     rootFolder:
-      "17bb68884fb76343eb124d815fc6270e3ee3c90333227b73f2103059fe819c952c9e89a056190249c9adef1bc2d27a88a2;f9fe067449514ff8ee8882fd",
+      "8b2a17fcabec64ac36d3d05b3958b32d988a2ccec022a00f763670cbe2aa8a3dc7f7c646688b2b1a01b8b0d321b31ec655;394e815de8500ed85fa710ff",
 
     /**
      * If your rootfolder inside a shared drive, you NEED to set this to true
@@ -174,7 +174,7 @@ const config: z.input<typeof Schema_Config> = {
      */
     siteName: "Yoru-Index",
     siteNameTemplate: "%s - %t",
-    siteDescription: "Shared Files",
+    siteDescription: "File Sharing",
     siteIcon: "/logo.svg",
     siteAuthor: "Yoru",
     favIcon: "/favicon.png",
@@ -285,7 +285,7 @@ const config: z.input<typeof Schema_Config> = {
     "value": "{{ poweredBy }}"
   },
   {
-    "value": "Made with ❤️ by [**{{ author }}**](https://github.com/YY-Yoru)"
+    "value": "Made with ❤️ by [**{{ author }}**](https://github.com/YY-Yoruka)"
   }
 ],
     /**
