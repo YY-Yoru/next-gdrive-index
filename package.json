@@ -3,8 +3,8 @@
   "version": "2.4.2",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3000",
-    "dev:turbo": "next dev -p 3000 --turbopack",
+    "dev": "next dev -p 7860",
+    "dev:turbo": "next dev -p 7860 --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
