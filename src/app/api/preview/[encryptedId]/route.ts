@@ -33,11 +33,11 @@ export async function GET(
     }
 
     // // Only allow if the request is from the same domain or the referer is the same domain
-    if (!IS_DEV && !origin?.toLowerCase().includes(config.basePath.toLowerCase())) {
-      throw new Error("[403] Unauthorized", {
-        cause: "Request is not allowed",
-      });
-    }
+    //if (!IS_DEV && !origin?.toLowerCase().includes(config.basePath.toLowerCase())) {
+    //  throw new Error("[403] Unauthorized", {
+    //    cause: "Request is not allowed",
+    //  });
+    //}
 
     const decryptedId = await encryptionService.decrypt(encryptedId);
     const file = await GetFile(encryptedId);
